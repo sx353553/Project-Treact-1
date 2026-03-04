@@ -22,5 +22,6 @@
 }
 
 .nav__logo--img {
-
+  max-width:auto;
+  height: auto;
 }
