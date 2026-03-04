@@ -14,14 +14,31 @@
     margin: 0 auto;
 }
 
-.nav {
+nav {
+    padding-top: 32px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     
 }
 
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav__logo--img {
-  max-width:auto;
-  height: auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+
+}
+
+.nav__logo--title {
+   font-size: 24px;
+   margin-left: 16px;
+}
+
+.nav__links {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
 }
