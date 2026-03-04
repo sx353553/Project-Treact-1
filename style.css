@@ -14,10 +14,13 @@
     margin: 0 auto;
 }
 
-nav {
-    padding-top: 32px;
+.nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}img {
+    width: 100%;
 }
 
 .nav__row {
@@ -28,7 +31,6 @@ nav {
 .nav__logo--img {
   width: 48px;
   height: 48px;
-  display: flex;
 
 }
 
@@ -37,8 +39,9 @@ nav {
    margin-left: 16px;
 }
 
-.nav__links {
+.nav__link {
     font-size: 16px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
