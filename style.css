@@ -56,8 +56,8 @@ img {
 
 ul {
     display: flex;
-    gap: 65px;
-    margin: 0 60px;
+    gap: 40px;
+    margin: 0 23px;
     font-size: 16px;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +79,11 @@ li {
     margin: 0;
     padding: 10px 32px;
     margin-top: 2px;
+    border-radius: 9999px;
     color: #fff;
     background-color: #6415ff;
+    line-height: 1.5;
+    border: none;
+    transition: all 300ms ease;
 
 }
