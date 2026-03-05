@@ -23,9 +23,19 @@
     width: 100%;
 }
 
+.container {
+    display: flex;
+}
+
 .nav__row {
     display: flex;
     justify-content: space-between;
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__logo--img {
