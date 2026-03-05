@@ -25,6 +25,7 @@ img {
 
 .container {
     display: flex;
+    padding-top: 30px;
 }
 
 .nav__row {
@@ -48,15 +49,19 @@ img {
 }
 
 .nav__logo--title {
-   font-size: 30px;
+    font-weight: bold;
+   font-size: 24px;
    margin-left: 10px;
 }
 
 ul {
     display: flex;
-    gap: 20px;
-    margin: 0 120px;
+    gap: 65px;
+    margin: 0 60px;
     font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
 }
 
 li {
@@ -65,8 +70,16 @@ li {
 }
 
 .nav__links {
-    font-size: 36px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    color: #fff;
+    background-color: #6415ff;
+
 }
