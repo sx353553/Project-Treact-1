@@ -62,7 +62,6 @@ ul {
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    
 }
 
 li {
@@ -73,11 +72,12 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-decoration:none;
 }
 
- .href {
+ a {
     text-decoration: none;
+    color: #242424;
+    font-weight: bold;
 }
 
 .nav__link--primary {
