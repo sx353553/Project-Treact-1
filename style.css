@@ -45,6 +45,7 @@ img {
 .nav__logo--img {
   width: 80px;
   height: 56px;
+  margin-left: 32px;
 
 }
 
@@ -98,15 +99,24 @@ h1 {
     flex-direction:column;
     padding: 32px;
     margin-top: 68px;
-    max-width: 600px
+    max-width: 450px;
 
+}
+
+.purple {
+    color: #6415ff;
 }
 
 .header__description--para {
     display: flex;
     flex-direction: column;
     margin-left: 32px;
-    max-width: 350px;
-    font-size: 18px;
+    max-width: 360px;
+    font-size: 16px;
+}
+
+.header__email {
+    display: flex;
+    padding-top: 24px;
 }
 
