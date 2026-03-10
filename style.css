@@ -116,7 +116,20 @@ h1 {
 }
 
 .header__email {
-    display: flex;
-    padding-top: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header__email--input {
+    font-size: 16px;
+    width: 75%;
+    border-radius: 150px;
+    padding: 10px;
+}
+
+.header__email--btn {
+    font-size: 16px;
+    
+    
 }
 
