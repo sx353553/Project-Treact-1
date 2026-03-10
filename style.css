@@ -98,10 +98,15 @@ h1 {
     flex-direction:column;
     padding: 32px;
     margin-top: 68px;
+    max-width: 600px
 
 }
 
-header__description--para {
+.header__description--para {
     display: flex;
     flex-direction: column;
+    margin-left: 32px;
+    max-width: 350px;
+    font-size: 18px;
 }
+
