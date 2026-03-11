@@ -96,8 +96,11 @@ li {
 
 }
 
- .row__header {
+ .row {
     display: flex;
+    align-items: center;
+    
+
 }
 
 .header__description {
@@ -183,12 +186,15 @@ button {
 
 .header__img--wrapper {
     width: 60%;
-    margin-top: 2px;
-    margin-left: 475px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 475px
+    
 }
 
 .header__img {
     display: flex;
+    align-items: center;
 }
 
 
