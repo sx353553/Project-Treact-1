@@ -96,6 +96,10 @@ li {
 
 }
 
+ .row__header {
+    display: flex;
+}
+
 .header__description {
     width: 40%;
 }
@@ -177,8 +181,13 @@ button {
     display: flex;
 }
 
-.header__img {
+.header__img--wrapper {
     width: 60%;
+    margin-top: 2px;
+    margin-left: 475px;
+}
+
+.header__img {
     display: flex;
 }
 
