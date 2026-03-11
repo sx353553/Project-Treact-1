@@ -178,7 +178,7 @@ img {
 }
 
 .heaeder__img--wrapper {
-    display-flex;
+    display: flex;
 }
 
 
