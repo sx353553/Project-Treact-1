@@ -17,6 +17,8 @@
 .nav {
     padding-top: 32px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
     
 img {
@@ -94,12 +96,18 @@ li {
 
 }
 
+.header__description {
+    width: 40%;
+}
+
 h1 {
     display: flex;
     flex-direction:column;
     padding: 32px;
     margin-top: 68px;
     max-width: 450px;
+    font-size: 30px;
+    
 
 }
 
@@ -112,7 +120,7 @@ h1 {
     flex-direction: column;
     margin-left: 32px;
     max-width: 360px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .header__email {
@@ -122,6 +130,8 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
 }
 
 .header__email--input {
@@ -155,4 +165,24 @@ h1 {
 button {
    cursor: pointer;
 }
+.header__customer--title {
+    padding: 10px;
+}
+
+
+img {
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+ 
+
 
