@@ -13,6 +13,7 @@
 
 .row {
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -218,6 +219,7 @@ button {
     font-size: 48px;
     font-weight: 900;
     margin: 16px 0;
+    
 }
 
 .section__para {
@@ -226,6 +228,13 @@ button {
     width: 100%;
     font-size: 18px;
     font-weight: 500;
+    line-height: 1.625;
+    color:gray;
+}
+
+.services {
+    display:flex;
+    flex-wrap: wrap;
 }
 
 
