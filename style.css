@@ -13,7 +13,7 @@
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -261,6 +261,37 @@ button {
 
 .features__img--wrapper {
     width: 100px;
+}
+
+.features__description--para {
+    color: grey;
+}
+
+/* quality Work */
+
+#quality .row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.quality__description {
+    width: 50%;
+    max-width: 576px;
+    margin-right: 64px; 
+}
+
+#quality .btn {
+    margin-top: 32px;
+}
+
+.btn {
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: none;
+    font-size: 14px;
+    color: #fff;
 }
 
 
