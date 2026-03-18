@@ -233,8 +233,34 @@ button {
 }
 
 .services {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
+}
+
+/* Features */
+
+
+.features {
+ Display: flex;
+ width: 100%;
+ flex-wrap: wrap;
+
+}
+
+.feature {
+    width: calc(100%/3);
+    display: flex;
+    padding: 24px; 
+}
+
+.features__description--title {
+    font-weight: bold;
+    font-color: #242424;
+    font-size: 24px;
+}
+
+.features__img--wrapper {
+    width: 100px;
 }
 
 
