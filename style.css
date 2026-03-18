@@ -255,8 +255,8 @@ button {
 
 .features__description--title {
     font-weight: bold;
-    font-color: #242424;
     font-size: 24px;
+    color: #242424;
 }
 
 .features__img--wrapper {
