@@ -327,7 +327,6 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 .steps__description {
@@ -339,6 +338,10 @@ button {
 .steps__img--wrapper {
     width: 50%;
     position: relative;
+}
+
+.steps__img {
+  z-index: 2;  
 }
 
 .steps__title {
@@ -364,15 +367,8 @@ button {
     leter-spacing: 0.25em;
 }
 
-.steps__grid {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0.8;
-    z-index: -10;
-    color: rgb(100, 21, 255);
-    fill: currentColor;
-}
+
+
 
 
 
