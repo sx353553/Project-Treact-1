@@ -223,7 +223,7 @@ button {
 }
 
 .section__para {
-    text-align: center;
+    text-align: start;
     margin: 0 auto;
     width: 100%;
     font-size: 18px;
@@ -323,6 +323,9 @@ button {
     display: block;
 }
 
+/* Steps */
+
+
 #steps .row {
     display: flex;
     justify-content: space-between;
@@ -338,10 +341,6 @@ button {
 
 .steps__img--wrapper {
     position: relative;
-}
-
-.steps__img {
-  z-index: 2;  
 }
 
 .steps__grid {
@@ -375,7 +374,7 @@ button {
     color: rgb(36,62,99);
     line-height: 1.5;
     margin: 16px 0;
-    leter-spacing: 0.25em;
+    letter-spacing: 0.25em;
 }
 
 
