@@ -269,7 +269,7 @@ button {
 
 /* quality Work */
 
-.quality .row {
+#quality .row {
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -297,6 +297,10 @@ button {
 
 }
 
+.quality__img--wrapper {
+    position: relative;
+}
+
 .quality__img {
     z-index: 1;
     display: flex;
@@ -319,7 +323,7 @@ button {
     display: block;
 }
 
-.steps .row {
+#steps .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -332,8 +336,9 @@ button {
     
 }
 
-.step__description, .steps__img--wrapper {
+.steps__img--wrapper {
     width: 50%;
+    position: relative;
 }
 
 .steps__title {
@@ -361,7 +366,6 @@ button {
 
 .steps__grid {
     position: absolute;
-    
     left: 50%;
     transform: translateX(-50%);
     opacity: 0.8;
