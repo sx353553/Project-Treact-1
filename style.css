@@ -330,18 +330,29 @@ button {
 }
 
 .steps__description {
+    width: 50%;
     padding: 32px 0;
     padding-left: 64px;
     
 }
 
 .steps__img--wrapper {
-    width: 50%;
     position: relative;
 }
 
 .steps__img {
   z-index: 2;  
+}
+
+.steps__grid {
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    width: 80px;
+    height: 80px; 
+    opacity: 0.15;
+    z-index: 1;
 }
 
 .steps__title {
