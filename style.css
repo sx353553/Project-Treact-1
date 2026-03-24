@@ -380,10 +380,9 @@ button {
 }
 
 .step {
-  display: flex;  
-  flex-direction: column;
-  align-items: center;
-
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
 }
 
 
@@ -392,6 +391,7 @@ button {
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
+    padding-right: 20px;
 }
 
 .step__para {
@@ -400,6 +400,22 @@ button {
     margin-top: 12px;
     font-weight: 500;
     line-height: 2;
+}
+
+/* Values */
+
+.values .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.values__description, .value__img {
+    width: 50%;
+}
+
+.values__description {
+    padding: 32px 64px 32px 0;
 }
 
 
