@@ -337,6 +337,7 @@ button {
     padding: 32px 0;
     padding-left: 64px;
     
+    
 }
 
 .steps__img--wrapper {
@@ -352,9 +353,10 @@ button {
     height: 80px; 
     opacity: 0.15;
     z-index: 1;
+    fill: rgba(100, 21, 255); 
 }
 
-.steps__title {
+.step__title {
     font-weight: 600;
     font-size: 20px;
     color: #243e63;
@@ -375,6 +377,29 @@ button {
     line-height: 1.5;
     margin: 16px 0;
     letter-spacing: 0.25em;
+}
+
+.step {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
 }
 
 
