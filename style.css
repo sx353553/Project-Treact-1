@@ -527,9 +527,26 @@ button {
     height: 40px;    
 } 
 
-#img .value__img {
-    width: 50%;
+/* Pricing */
+
+#pricing .section__tag {
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #6415ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25;
+
 }
+
+#pricing .section__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+}
+    
 
 
 
