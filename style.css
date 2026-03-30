@@ -8,7 +8,7 @@
 
 }.container {
     width: 100%;
-    padding: 95px 0;
+    padding: 96px 0;
 }
 
 .row {
@@ -368,7 +368,7 @@ button {
 }
 
 .section__tag {
-   font-size: 16px;
+   font-size: 20px;
    color: #6415ff;
    letter-spacing: 1.6px;
    font-weight: 700;
@@ -529,10 +529,13 @@ button {
 
 /* Pricing */
 
-#pricing .section__tag {
-    Display: flex;
+#pricing .row {
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align:center;
+}
+
+#pricing .section__tag {
     font-size: 16px;
     color: #6415ff;
     font-weight: 700;
@@ -546,6 +549,13 @@ button {
     font-weight: 900;
     color: #243e63;
 }
+
+#pricing .section__para {
+   max-width: 600px;
+   text-align: center; 
+}
+
+
     
 
 
