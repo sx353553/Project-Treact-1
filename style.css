@@ -606,7 +606,7 @@ button {
     padding-bottom: 16px;
 }
 
-.plan:nth-child(odd) .plan-duration {
+.plan:nth-child(odd) .plan__duration {
     color: #a0aec0;
 }
  
@@ -621,7 +621,7 @@ button {
     color: #1a202c;
 }
 
-.plan__name, .plan__price, .plan__target {
+.plan__name, .plan__price, .plan__duration {
     font-weight: bold;
     line-height: 1.25;
 }
