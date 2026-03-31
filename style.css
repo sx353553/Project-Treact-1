@@ -596,7 +596,7 @@ button {
 }
 
 .plan__name {
-    font-size: 24px;
+    font-size: 16px;
     padding-bottom: 16px;
 }
 
@@ -606,7 +606,7 @@ button {
     padding-bottom: 16px;
 }
 
-.plan:nth-child(odd) .plan__duration {
+.plan:nth-of-type(odd) .plan__duration {
     color: #a0aec0;
 }
  
