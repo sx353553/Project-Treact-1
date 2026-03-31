@@ -617,18 +617,16 @@ button {
 
 .plan:nth-child(odd) .plan__name,
 .plan:nth-child(odd) .plan__price,
-.plan:nth-child(odd) .plan__duration {
+.plan:nth-child(odd) .plan__target {
     color: #1a202c;
 }
 
-.plan__name, .plan__price, .plan__duration {
+.plan__name, .plan__price, .plan__target {
     font-weight: bold;
     line-height: 1.25;
 }
 
-.plan:nth-child(odd) .plan-duration {
-    color: #a0aec0;
-}
+
 
 
     
