@@ -555,9 +555,51 @@ button {
    text-align: center; 
 }
 
-.plan__top {
+.plans {
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.plan {
+    position: relative;
+    margin-top: 64px;
+    width: 100%;
+    max-width: 384px;
+    padding-left: 32px;
+    padding-right: 32px;
     flex-direction: column;
+    border-radius: 8px;
+    background-color: rgb(255 255 255);
+}
+
+.plan__stripe {
+   position: absolute;
+
+}
+
+.plan__top {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+  line-height: 1.25;  
+}
+
+.plan__name {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.plan-price {
+    font-size: 48px;
+    margin: 4px 0;
+    padding-bottom: 16px;
+}
+
+.plan__duration {
+    font-size: 16px;
+    padding-bottom: 16px;
 }
 
 
