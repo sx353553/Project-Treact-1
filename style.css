@@ -555,6 +555,11 @@ button {
    text-align: center; 
 }
 
+.plan__top {
+    display: flex;
+    flex-direction: column;
+}
+
 
     
 
