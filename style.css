@@ -574,8 +574,17 @@ button {
     background-color: rgb(255 255 255);
 }
 
+.plan:nth-child(1) .plan__stripe,
+.plan:nth-child(1) .plan__button {
+    color: #f7fafc;
+    background-color: linear-gradient(115deg, rgb(56,178,172) 0%, rgb(129, 230,217) 100%;)
+}
+
 .plan__stripe {
    position: absolute;
+   height: 8px;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
 
 }
 
@@ -587,19 +596,38 @@ button {
 }
 
 .plan__name {
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 16px;
 }
 
-.plan-price {
+.plan__price {
     font-size: 48px;
     margin: 4px 0;
     padding-bottom: 16px;
 }
 
+.plan:nth-child(odd) .plan-duration {
+    color: #a0aec0;
+}
+ 
 .plan__duration {
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 16px;
+}
+
+.plan:nth-child(odd) .plan__name,
+.plan:nth-child(odd) .plan__price,
+.plan:nth-child(odd) .plan__duration {
+    color: #1a202c;
+}
+
+.plan__name, .plan__price, .plan__duration {
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+.plan:nth-child(odd) .plan-duration {
+    color: #a0aec0;
 }
 
 
