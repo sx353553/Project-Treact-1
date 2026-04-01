@@ -692,11 +692,34 @@ button {
 
 .plan__button {
     padding: 12px 16px;
+    border-radius: 999px;
+    font-weight: 700;
+    text-transform: uppercase;
+
 }
 
 .plan:nth-child(2) .plan__button {
     color: #6415ff;
     background-color: #f7fafc;
+}
+
+/* Testimonials */
+
+#testimonial .row {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonal__img .testimonial__description {
+    width: 50%;
+}
+
+testimonial__img--wrapper {
+    width: 100%;
+    max-width: 400px;
 }
 
 .
