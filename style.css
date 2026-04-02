@@ -783,6 +783,14 @@ button {
    color: rgb(74,85,104); 
 }
 
+h3 .testimonial__title {
+    font-size: 24px;
+}
+
+h2 .testimonial__title {
+    font-size: 48px;
+}
+
 
 
 .
