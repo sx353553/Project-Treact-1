@@ -713,7 +713,7 @@ button {
     align-items: center;
 }
 
-.testimonial__img--wrapper {
+.testimonials__img--wrapper {
     width: 100%;
     max-width: 575px;
 
@@ -783,13 +783,44 @@ button {
    color: rgb(74,85,104); 
 }
 
-h3 .testimonial__title {
+h3.testimonial__title {
     font-size: 24px;
 }
 
-h2 .testimonial__title {
+h2.testimonial__title {
     font-size: 48px;
 }
+
+.testimonial__profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.testimonial__img--wrapper {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 16px;
+}
+
+.testimonial__name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4a5568;
+    line-height: 1.625;
+}
+
+.testimonial__role {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+
 
 
 
