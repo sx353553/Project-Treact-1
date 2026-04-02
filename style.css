@@ -798,6 +798,7 @@ h2.testimonial__title {
     align-items: center;
     gap: 12px;
     margin-top: 24px;
+    justify-content: space-between;
 }
 
 .testimonial__img--wrapper {
@@ -820,6 +821,7 @@ h2.testimonial__title {
     font-weight: 500;
     color: #7c8ba1;
     line-height: 1.625;
+    margin-right: 176px;
 }
 
 .testimonial__buttons {
@@ -841,14 +843,74 @@ h2.testimonial__title {
     width: 24px;
     height: 24px;
     fill: rgb(100, 21, 255);
+
 }
 
-.button {
+button {
     cursor: pointer;
     border: none;
 }
 
-.
+.testimonial__button > svg {
+  width: 14px;
+}
+
+/* Start */
+
+.start__container {
+    padding: 96px 0;
+    width: 100%;
+    background-color: rgb(100,21,255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start__title, .start__button {
+    width: 50%;
+}
+
+.start__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #f7fafc;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start__button:nth-child(1) {
+    background: #f56565;
+    margin-right: 32px;
+    transition: all 300ms ease; 
+}
+
+.start__button:nth-child(2) {
+    border: 1px solid rgb(160,174,192);
+    transition: all 300ms ease;
+}
+
+.start__button {
+   padding: 20px 40px;
+   border-radius: 500px;
+   font-weight: 700;
+   font-size: 16px;
+   color: #f7fafc;
+   line-height: 1.5; 
+}
+
+
 
 
 
