@@ -1001,6 +1001,34 @@ footer {
     font-size: 20px;
 }
 
+.footer__social--link {
+   padding: 8px;
+    border-radius: 50%;
+} 
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+     
+}
+
+.footer__socials a {
+    height: 30px;
+    width: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__socials a svg {
+    width: 24px;
+    height: 24px;
+}
+
+
+
 
 
 
