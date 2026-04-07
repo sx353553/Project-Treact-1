@@ -922,8 +922,19 @@ button {
 
 /* Footer */
 
+footer {
+ padding: 96px 32px;
+ background-color: rgb(100, 21, 255);
+ margin-bottom: -32px;
+ position: relative;   
+}
+
 .row .footer__row {
-   padding: 96px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 120px 0px;
    margin-bottom: -32px;
    margin-top: 40px;
    position: relative;
@@ -934,9 +945,9 @@ button {
     display: flex;
     justify-content: space-between;
     Width: 100%;
+    margin-top: 32px;
     font-size: 16px;
     gap: 64px;
-    background-color: rgb(100, 21, 255);
 }
 
 .footer__column {
@@ -946,13 +957,44 @@ button {
 }
 
 .footer__column--title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     color: #f7fafc;
+    margin-bottom: 24px;
     line-height: 1.5;
 }
 
+.footer__column--link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f7fafc;
+    line-height: 1.625;
+}
 
+.footer__divider {
+    width: 100%;
+    height: 2px;
+    margin: 64px 0;
+    background-color: rgb(116, 44, 255);
+}
+
+.footer__bottom {
+   display: flex;
+   justify-content: space-between;
+    text-align: center;
+}
+.footer__logo--img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__logo--text {
+    font-size: 24px;
+    color: #f7fafc;
+    font-weight: 900;
+    margin-left: 8px;
+    letter-spacing: 0.05em;
+}
 
 
 
