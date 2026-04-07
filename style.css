@@ -5,8 +5,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
 
-}.container {
+.container {
     width: 100%;
     padding: 96px 0;
 }
@@ -917,6 +918,30 @@ button {
    font-size: 16px;
    color: #f7fafc;
    line-height: 1.5; 
+}
+
+/* Footer */
+
+.row.footer__row {
+   padding: 96px 32px;
+   background-color: rgb(100, 21, 255);
+   margin-bottom: -32px;
+   position: relative;
+
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16px;
+    gap: 64px;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 
