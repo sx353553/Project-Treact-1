@@ -150,7 +150,7 @@ h1 {
     position: absolute;
     width: 100%;
     border-radius: 500px;
-    border: 2px solid rgb(229,231,239);
+    border: 2px solid rgb(229, 231, 239);
     color: rgb(36, 62, 99);
     font-size: 16px;
     top: 0;
@@ -322,7 +322,7 @@ button {
     bottom: 0px;
     fill: rgb(100, 21, 255);
     --tw-text-opacity: 1;
-    color: rgba(100,21, 255, var(--tw-text-opacity));
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
     z-index: 0;
     display: block;
 }
@@ -579,13 +579,13 @@ button {
 .plan:nth-child(1) .plan__stripe,
 .plan:nth-child(1) .plan__button {
     color: #f7fafc;
-    background: linear-gradient(115deg, rgb(56,178,172) 0%, rgb(129, 230,217) 100%);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plan:nth-child(3) .plan__stripe,
 .plan:nth-child(3) .plan__button {
     color: #f7fafc;
-    background: linear-gradient(115deg, rgb(245,101,101) 0%, rgb(254, 178,178) 100%);
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__stripe {
@@ -655,17 +655,17 @@ button {
 
 .plan:nth-child(1) .plan__middle,
 .plan:nth-child(3) .plan__middle {
-    border-top: 2px solid rgb(229,231,235);
-    border-bottom: 2px solid rgb(229,231,235);
+    border-top: 2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235);
 }
 
 .plan:nth-child(2) .plan__middle {
-    border-top: 2px solid rgb(102,126,234);
-    border-bottom: 2px solid rgb(102,126,234);
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(102, 126, 234);
 }
 
 .plan:nth-child(2) {
-    background: linear-gradient(135deg,rgb(76,81,191) 0%, rgb(102, 126, 234) 100%);
+    background: linear-gradient(135deg,rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
 .plan:nth-child(2) .plan__name,
@@ -739,7 +739,7 @@ button {
   .testimonial__title {
     font-size: 48px;
     font-weight: 900;
-    color: rgb(36,62,99);
+    color: rgb(36, 62, 99);
     margin: 16px 0;
     letter-spacing: 0.025em;
     margin-bottom: 24px;
@@ -761,7 +761,7 @@ button {
     display: flex;
     gap: 12px;
     font-size: 20px;
-    color: rgba(246,173,85);
+    color: rgba(246, 173, 85);
     margin-right: 2px;
     margin-top: 4px;
     padding: 24px;
@@ -780,7 +780,7 @@ button {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.625;
-   color: rgb(74,85,104); 
+   color: rgb(74, 85, 104); 
 }
 
 h3.testimonial__title {
@@ -860,7 +860,7 @@ button {
 .start__container {
     padding: 96px 0;
     width: 100%;
-    background-color: rgb(100,21,255);
+    background-color: rgb(100, 21, 255);
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -890,14 +890,23 @@ button {
     justify-content: flex-end;
 }
 
+.start__button:hover:nth-child(1) {
+    background-color: rgba(229, 62, 62);
+}
+
 .start__button:nth-child(1) {
     background: #f56565;
     margin-right: 32px;
     transition: all 300ms ease; 
 }
 
+.start__button:hover:nth-child(2) {
+    background-color: rgba(247, 250, 252);
+    color: rgba(100,21,255);
+}
+
 .start__button:nth-child(2) {
-    border: 1px solid rgb(160,174,192);
+    border: 1px solid rgb(160, 174, 192);
     transition: all 300ms ease;
 }
 
