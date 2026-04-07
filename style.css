@@ -922,10 +922,10 @@ button {
 
 /* Footer */
 
-.row.footer__row {
+.row .footer__row {
    padding: 96px 32px;
-   background-color: rgb(100, 21, 255);
    margin-bottom: -32px;
+   margin-top: 40px;
    position: relative;
 
 }
@@ -933,15 +933,23 @@ button {
 .footer__columns {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    Width: 100%;
     font-size: 16px;
     gap: 64px;
+    background-color: rgb(100, 21, 255);
 }
 
 .footer__column {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.footer__column--title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f7fafc;
+    line-height: 1.5;
 }
 
 
