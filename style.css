@@ -538,6 +538,7 @@ button {
     flex-direction: column;
     justify-content: center;
     text-align:center;
+    flex-wrap: wrap;
 }
 
 #pricing .section__tag {
@@ -1109,13 +1110,14 @@ footer {
   right: 18px;
 }
 
+/*SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
+
 @media (max-width: 768px) {
   .btn__menu {
     display: block;
   }
-}
 
-@media (max-width: 768px) {
+
     .nav__links {
         display: none;
     }
@@ -1135,23 +1137,61 @@ footer {
 
     }
 
-    .header__row {
-        flex-direction: column;
+    .quality__description, .steps__description,
+    .values__description,
+    .testimonial__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
     }
 
-    .header__description {
+    #quality .section__para {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+    .header__email--input {
+       position: static;
+       padding: 16px 0;
+       padding-left: 32px;
+       line-height: 1.5;
+    }
+
+    .header__email--btn {
         width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
+    #features .section__title, #pricing .section__title {
+        font-size: 36px;
+    }
+
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
-    .header__description--para {
-        margin: 0 auto;
-        text-align: center;
+    .feature__para {
+        margin-top: 4px;
+        line-height: 2;
     }
 
-    .header__email {
-        justify-content: center;
+    #values .section__title {
+        font-size: 30px;
     }
+
+    .values__btn {
+        line-height: 1.5;
+    }
+
+
+
 }
 
 
